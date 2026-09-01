@@ -1,0 +1,12 @@
+# 빌드 컨텍스트에서 제외 — COPY . . 가 호스트 산출물로 이미지 내용을 덮어쓰지 않게 한다.
+# · node_modules: npm ci 로 설치한 이미지 내부 의존성을 호스트(플랫폼 다름) 것으로 덮어씀
+# · .docusaurus, build: 호스트에 미리 있던 캐시·산출물이 섞이면 컨테이너 안 빌드가 그걸
+#   그대로 재사용해버릴 수 있다 — 매번 컨테이너 안에서 새로 빌드한다
+node_modules
+.docusaurus
+build
+
+.git
+.github
+.vscode
+.claude
