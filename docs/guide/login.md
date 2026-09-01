@@ -11,6 +11,8 @@ Desk는 아이디 · 비밀번호를 따로 만들지 않습니다. **POREST 통
 
 1. [desk.porest.cloud](https://desk.porest.cloud) 접속
 2. **[로그인]** 버튼 클릭 → 통합 로그인 화면으로 이동
+
+![Desk 로그인 화면의 SSO 로그인 버튼](/img/screens/login-button.png)
 3. 계정으로 로그인하면 자동으로 Desk 화면으로 돌아옵니다
 
 세션이 만료되면 자동으로 로그인 화면으로 다시 이동합니다 — 다시 로그인만 하면 하던 화면으로 돌아옵니다.
