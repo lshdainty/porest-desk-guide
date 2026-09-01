@@ -32,6 +32,9 @@ const config: Config = {
     locales: ['ko'],
   },
 
+  // 스크린샷이 많은 사이트라 모바일에서 확대해 볼 수 있어야 한다 — 클릭하면 원본 크기로 확대.
+  plugins: ['docusaurus-plugin-image-zoom'],
+
   presets: [
     [
       'classic',
@@ -50,6 +53,13 @@ const config: Config = {
   ],
 
   themeConfig: {
+    zoom: {
+      selector: '.markdown img',
+      background: {
+        light: 'rgb(255, 255, 255)',
+        dark: 'rgb(24, 24, 27)',
+      },
+    },
     colorMode: {
       defaultMode: 'dark',
       respectPrefersColorScheme: true,

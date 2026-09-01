@@ -24,5 +24,11 @@ URL이 `/todo/todo`가 아니라 `/todo`로 축약된다 — 의도된 동작이
 ## 배포
 
 `desk.porest.cloud/guide/` 경로로 서빙된다(새 서브도메인 인증서 없이 기존 desk 엣지 nginx에 위치 블록만
-추가). `baseUrl: '/guide/'`가 그래서 필요하다 — 로컬 `npm start`(baseUrl 없음)와 `npm run serve`(baseUrl
-있음)의 링크 동작이 다르니 배포 경로를 확인할 땐 반드시 `serve`를 써라.
+추가). `baseUrl: '/guide/'`는 `npm start`(dev)에도 그대로 적용된다 — 로컬에서 열 땐
+`http://localhost:3000/guide/...`로 접속해야 한다(접두어 없이 `/todo` 등으로 열면 404).
+
+## 이미지 확대
+
+스크린샷이 많아 `docusaurus-plugin-image-zoom`을 붙였다 — 이미지를 탭하면 배경이 어두워지며
+뷰포트 폭까지 확대된다. 원본 픽셀(1280px)까지 보고 싶으면 그 상태에서 브라우저 자체 핀치줌을
+쓰면 된다(뷰포트 메타에 `user-scalable` 제한을 두지 않아 항상 가능하다).
