@@ -23,7 +23,18 @@ title: 예산
 
 이행률 계산에서 **아직 날짜가 되지 않은 거래**(반복거래를 미리 만들어 둔 미래분 등)는 빠지고, **환불**(수입으로 들어온 환불액)은 원래 지출에서 상계되어 빠집니다. 퍼센트는 소수점 첫째 자리(0.1%)까지 반올림합니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![예산 설정 — 전체 한도와 카테고리별 한도를 나눠서 관리](/img/screens/budget-set.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![예산 설정 — 전체 한도와 카테고리별 한도를 나눠서 관리](/img/screens/mobile-budget-set.png)
+
+</TabItem>
+</Tabs>
 
 ## 월 이동
 

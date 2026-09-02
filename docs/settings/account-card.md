@@ -21,7 +21,18 @@ title: 계좌 · 카드 관리
 5. **전체 자산 합계에 포함** 스위치 — 끄면 이 계좌는 등록은 되지만 순자산 · 총자산 계산에서 빠집니다(예: 내 돈이 아닌 임시 보관 계좌)
 6. **[추가]**
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![계좌 추가 — 기관 34개 중에서 고르고, 계좌 종류·별칭·잔액을 설정합니다. "전체 자산 합계에 포함"을 끄면 순자산 계산에서 제외됩니다](/img/screens/settings-account-add-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![계좌 추가 — 기관 34개 중에서 고르고, 계좌 종류·별칭·잔액을 설정합니다](/img/screens/mobile-settings-account-add-form.png)
+
+</TabItem>
+</Tabs>
 
 ## 카드 생성
 
@@ -30,7 +41,18 @@ title: 계좌 · 카드 관리
 3. **카드 상품**을 검색해서 고릅니다 — [카드 혜택 라이브러리](../asset/card-benefit.md)와 같은 4,400여 개 상품 데이터베이스에서 찾습니다(단종 카드도 포함해서 검색할 수 있습니다)
 4. 신용카드라면 **신용한도 · 결제일 · 현재 사용액 · 결제계좌**까지 입력합니다
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![카드 추가 — 카드 상품 검색, 한도, 결제일, 결제 계좌를 한 화면에서 설정](/img/screens/card-form-payday.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![카드 추가 — 카드 상품 검색, 한도, 결제일을 한 화면에서 설정](/img/screens/mobile-card-form-payday.png)
+
+</TabItem>
+</Tabs>
 
 :::danger[결제일을 비워두면 자동결제가 되지 않습니다]
 결제일 없이 저장할 수는 있지만, 그러면 매일 자정 도는 자동결제 배치가 "오늘이 결제일인가"를 확인하지 못해 **이 카드는 자동결제 대상에서 완전히 제외**됩니다. 대신 청구 금액은 이번 달 1일부터 오늘까지의 사용액으로 계산되어, [지금 결제](../asset/card.md#지금-결제) 버튼을 직접 눌러야만 정산됩니다. 실제로 쓰는 카드라면 결제일을 꼭 등록하세요.
@@ -44,7 +66,18 @@ title: 계좌 · 카드 관리
 
 목록에서 **연필 아이콘**을 누르면 추가할 때와 같은 폼이 열려 별칭 · 잔액 · 한도 · 결제일 등을 고칠 수 있습니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![계좌 수정 — 별칭과 잔액을 포함해 추가할 때 입력한 모든 값을 바꿀 수 있습니다](/img/screens/settings-account-edit-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![계좌 수정 — 별칭과 잔액을 포함해 추가할 때 입력한 모든 값을 바꿀 수 있습니다](/img/screens/mobile-settings-account-edit-form.png)
+
+</TabItem>
+</Tabs>
 
 :::warning[잔액 · 사용액을 손으로 고치면 그 시점이 새 기준점이 됩니다]
 Desk는 잔액을 하나의 값으로 저장해두지 않고 거래 · 이체 기록을 누적해서 계산합니다. 여기서 잔액(또는 카드 사용액)을 직접 입력하면 **그 순간이 새로운 기준점**이 되어, 그 이전 사용 내역은 남아 있어도 이후 계산에는 더 이상 영향을 주지 않습니다. 자세한 원리와 부작용은 [자산 개요](../asset/overview.md#잔액은-어떻게-계산되나요)에서 다룹니다. 실제 잔액과 다를 때만 손으로 맞추는 걸 권장합니다.
@@ -54,9 +87,31 @@ Desk는 잔액을 하나의 값으로 저장해두지 않고 거래 · 이체 �
 
 목록에서 **휴지통 아이콘**을 누르고 확인 창에서 **[삭제]** 를 누릅니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![계좌 삭제 확인 — "목록에서 제거합니다. 연결된 거래 내역은 유지됩니다"](/img/screens/settings-account-delete-confirm.png)
 
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![계좌 삭제 확인 — "목록에서 제거합니다. 연결된 거래 내역은 유지됩니다"](/img/screens/mobile-settings-account-delete-confirm.png)
+
+</TabItem>
+</Tabs>
+
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![카드 삭제 확인 — 계좌와 같은 방식으로, 거래 내역은 지워지지 않습니다](/img/screens/settings-card-delete-confirm.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![카드 삭제 확인 — 계좌와 같은 방식으로, 거래 내역은 지워지지 않습니다](/img/screens/mobile-settings-card-delete-confirm.png)
+
+</TabItem>
+</Tabs>
 
 :::danger[삭제해도 거래 기록은 남지만, 그 거래에서 계좌 · 카드 표시는 사라집니다]
 확인 창의 문구 그대로 **"목록에서 제거"** 하는 것이지 관련 기록을 지우는 게 아닙니다 — 이 계좌 · 카드로 이미 기록된 거래들은 삭제되지 않고 그대로 남습니다. 다만 그 거래들의 상세를 열어보면, [카테고리를 삭제했을 때 "미분류"로 바뀌는 것과 달리](./category.md#카테고리-삭제) **계좌 · 카드 항목 자체가 통째로 사라져 보이지 않게 됩니다.** 지난 거래에서 "어느 카드로 결제했는지"를 나중에 다시 확인할 방법이 없어진다는 뜻이므로, 자주 참고하는 계좌 · 카드는 삭제 대신 이름만 바꾸는 걸 권장합니다.

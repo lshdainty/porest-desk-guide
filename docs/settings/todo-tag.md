@@ -7,7 +7,18 @@ title: 할 일 태그
 
 [할 일](../todo/todo.md)에 붙이는 태그를 만들고 관리합니다. 새로 만든 태그는 할 일을 추가 · 수정할 때 바로 고를 수 있습니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![할 일 태그 — 몇 건의 할 일에 쓰이고 있는지 표시됩니다](/img/screens/settings-todo-tags.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![할 일 태그 — 몇 건의 할 일에 쓰이고 있는지 표시됩니다](/img/screens/mobile-settings-todo-tags.png)
+
+</TabItem>
+</Tabs>
 
 ## 태그 생성
 
@@ -15,13 +26,35 @@ title: 할 일 태그
 2. **이름**(최대 12자)과 **색상**을 정합니다
 3. **[태그 추가]**
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![태그 추가 — 이름과 색상만 정하면 됩니다](/img/screens/settings-todo-tag-add-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![태그 추가 — 이름과 색상만 정하면 됩니다](/img/screens/mobile-settings-todo-tag-add-form.png)
+
+</TabItem>
+</Tabs>
 
 ## 태그 수정
 
 태그 행을 누르면(오른쪽 화살표) 같은 폼이 열려 이름 · 색상을 바꿀 수 있습니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![태그 수정](/img/screens/settings-todo-tag-edit-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![태그 수정](/img/screens/mobile-settings-todo-tag-edit-form.png)
+
+</TabItem>
+</Tabs>
 
 ## 태그 삭제
 

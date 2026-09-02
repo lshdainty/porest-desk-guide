@@ -13,7 +13,18 @@ title: 할 일 관리
 - **우선순위**: 상 · 중 · 하 세 단계
 - **태그**: 할 일마다 태그를 붙여 분류합니다
 
-![모바일 화면 — 오늘 할 일과 완료율, 밤하늘 진행률을 함께 보여줍니다](/img/screens/mobile-todo.png)
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
+![할 일 목록 — 오늘·이번 주·전체·완료 필터와 오른쪽의 밤하늘 진행률·태그 분포·우선순위 현황](/img/screens/todo-list.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![모바일 화면 — 오늘 할 일과 완료율, 밤하늘 진행률을 함께 보여줍니다](/img/screens/mobile-todo-list.png)
+
+</TabItem>
+</Tabs>
 
 ## 할 일 생성
 
@@ -27,7 +38,18 @@ title: 할 일 관리
 4. 필요하면 **메모**를 남깁니다
 5. **[저장]**
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![할 일 자세히 추가 — 제목·마감일·태그·우선순위·메모를 한 번에 설정합니다](/img/screens/todo-add-detail-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![할 일 추가 — 모바일은 빠르게·자세히 구분 없이 + 버튼 하나로 항상 이 폼이 열립니다](/img/screens/mobile-todo-add-detail-form.png)
+
+</TabItem>
+</Tabs>
 
 :::tip[지난 날짜도 마감일로 잡을 수 있어요]
 마감일이 이미 지난 날짜여도 저장이 막히지 않습니다. 지난 일을 기록용으로 남겨두고 싶을 때 유용합니다.
@@ -37,9 +59,31 @@ title: 할 일 관리
 
 목록에서 할 일을 눌러 상세를 열고 **[수정]** 을 누르면 추가할 때와 같은 폼이 열립니다. 제목 · 마감일 · 태그 · 우선순위 · 메모를 모두 바꿀 수 있습니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![할 일 상세 — 하단의 수정·삭제 버튼 위치](/img/screens/todo-detail-actions.png)
 
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![할 일 상세 — 하단 시트로 열리고, 삭제·수정이 화면 폭 전체를 채우는 버튼입니다](/img/screens/mobile-todo-detail-actions.png)
+
+</TabItem>
+</Tabs>
+
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![할 일 수정 폼 — 제목을 포함한 모든 값을 다시 고칠 수 있습니다](/img/screens/todo-edit-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![할 일 수정 폼 — 제목을 포함한 모든 값을 다시 고칠 수 있습니다](/img/screens/mobile-todo-edit-form.png)
+
+</TabItem>
+</Tabs>
 
 ## 완료 처리
 
@@ -49,7 +93,18 @@ title: 할 일 관리
 
 상세 화면의 **[삭제]** 를 누르고 확인 창에서 **[삭제]** 를 누릅니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![할 일 삭제 확인 — 되돌릴 수 없습니다](/img/screens/todo-delete-confirm.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![할 일 삭제 확인 — 되돌릴 수 없습니다](/img/screens/mobile-todo-delete-confirm.png)
+
+</TabItem>
+</Tabs>
 
 :::danger[되돌릴 수 없지만, 이미 받은 별빛은 그대로 남습니다]
 "이 작업은 되돌릴 수 없습니다" — 삭제한 할 일은 복구할 수 없습니다. 다만 완료 처리로 별빛을 이미 받은 할 일을 삭제해도 **그 별빛은 회수되지 않고 그대로 남습니다** — 당일에 지워도 마찬가지입니다. 같은 날 삭제하면 별빛까지 함께 회수되는 [메모](../memo/memo.md#메모도-별빛이-쌓여요)와는 다른 동작입니다.
@@ -59,7 +114,18 @@ title: 할 일 관리
 
 할 일을 완료하면 우선순위에 따라 별빛이 쌓입니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![할 일을 완료하면 뜨는 별빛 적립 안내 — "여유" 우선순위라 +2, 별자리 진행률이 2/6으로 올라감](/img/screens/todo-star-toast.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![할 일을 완료하면 뜨는 별빛 적립 안내 — "여유" 우선순위라 +1](/img/screens/mobile-todo-star-toast.png)
+
+</TabItem>
+</Tabs>
 
 | 우선순위 | 별빛 |
 |:---:|:---:|

@@ -11,7 +11,18 @@ title: Porest Pro 구독
 
 **설정 → 계정 → 구독 · 결제**의 **[Pro 시작]** 을 누르면 요금 비교 화면이 열립니다. Free 상태에서도 이 화면 자체는 항상 열어볼 수 있습니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![구독 관리 — Free·Pro 요금과 기능 비교표](/img/screens/settings-subscription-plans.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![구독 관리 — Free·Pro 요금과 기능 비교표](/img/screens/mobile-settings-subscription-plans.png)
+
+</TabItem>
+</Tabs>
 
 ## Free와 Pro의 차이
 

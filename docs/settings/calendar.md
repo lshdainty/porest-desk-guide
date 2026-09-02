@@ -5,7 +5,18 @@ title: 캘린더 라벨 · 공유
 
 # 캘린더 라벨 · 공유
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![캘린더 라벨 — 모든 캘린더에서 공용으로 쓰는 라벨 목록, 몇 건에 쓰이고 있는지도 표시됩니다](/img/screens/settings-calendar-labels.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![캘린더 라벨 — 모든 캘린더에서 공용으로 쓰는 라벨 목록, 몇 건에 쓰이고 있는지도 표시됩니다](/img/screens/mobile-settings-calendar-labels.png)
+
+</TabItem>
+</Tabs>
 
 ## 라벨 생성
 
@@ -13,13 +24,35 @@ title: 캘린더 라벨 · 공유
 2. **이름**(최대 12자)과 **색상**을 정합니다
 3. **[추가]** — 새 라벨은 [캘린더](../calendar/calendar.md)에서 바로 고를 수 있습니다
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![라벨 추가 — 이름과 색상만 정하면 됩니다](/img/screens/settings-calendar-label-add-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![라벨 추가 — 이름과 색상만 정하면 됩니다](/img/screens/mobile-settings-calendar-label-add-form.png)
+
+</TabItem>
+</Tabs>
 
 ## 라벨 수정
 
 라벨 행을 누르면(오른쪽 화살표) 같은 폼이 열려 이름 · 색상을 바꿀 수 있습니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![라벨 수정](/img/screens/settings-calendar-label-edit-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![라벨 수정](/img/screens/mobile-settings-calendar-label-edit-form.png)
+
+</TabItem>
+</Tabs>
 
 ## 라벨 삭제
 

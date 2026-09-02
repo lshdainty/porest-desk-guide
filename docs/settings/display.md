@@ -5,7 +5,18 @@ title: 표시 설정
 
 # 표시 설정
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![표시 설정 — 테마, 표시 기준 지역, 언어(한국어/English), 기본 통화를 한 화면에서 관리](/img/screens/settings-display.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![표시 설정 — 테마, 표시 기준 지역, 언어, 기본 통화를 한 화면에서 관리](/img/screens/mobile-settings-display.png)
+
+</TabItem>
+</Tabs>
 
 ## 테마
 

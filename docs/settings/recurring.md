@@ -7,7 +7,18 @@ title: 반복거래
 
 매달 같은 날 반복되는 수입 · 지출(월세, 정기구독 등)을 등록해두면 자동으로 거래내역에 채워집니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![반복거래 관리 — 다가오는 7일 예정 목록과 전체 반복거래 목록](/img/screens/settings-recurring.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![반복거래 관리 — 활성·일시정지 개수와 매월 고정 지출·수입, 전체 목록](/img/screens/mobile-settings-recurring.png)
+
+</TabItem>
+</Tabs>
 
 ## 반복거래 생성
 
@@ -19,7 +30,18 @@ title: 반복거래
 6. **자동 기록**(해당 일자에 거래를 자동으로 추가) · **하루 전 알림** 옵션을 켜고 끕니다
 7. **[추가]**
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![반복거래 추가 — 주기·종료 조건·자동 기록 여부까지 한 화면에서 설정합니다](/img/screens/settings-recurring-add-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![반복거래 추가 — 주기·종료 조건·자동 기록 여부까지 한 화면에서 설정합니다](/img/screens/mobile-settings-recurring-add-form.png)
+
+</TabItem>
+</Tabs>
 
 :::info[말일 근처 날짜는 매달 자동으로 조정됩니다]
 반복 일자를 30일 · 31일처럼 매달 있지는 않은 날로 정해도, "해당 일이 없는 달은 말일에 처리됩니다"— 2월처럼 그 날짜가 없는 달에는 그달의 말일에 자동으로 실행됩니다.

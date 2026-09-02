@@ -14,9 +14,18 @@ title: 자산 개요
 - **다가오는 결제**: 곧 결제일이 돌아오는 신용카드 목록과 예정 금액
 - **저축목표**: 목표 금액 대비 지금까지 모은 금액 (목표를 만들고 고치는 건 [설정](../settings/saving-goal.md)에서 합니다)
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![자산 개요 — 순자산 추이 그래프, 계좌·카드별 잔액, 자산 구성 도넛 차트](/img/screens/asset-overview.png)
 
-![모바일 화면 — 순자산 추이와 계좌·카드 목록을 위아래로 스크롤해 봅니다](/img/screens/mobile-asset.png)
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![모바일 화면 — 순자산 추이와 계좌·카드 목록을 위아래로 스크롤해 봅니다](/img/screens/mobile-asset-overview.png)
+
+</TabItem>
+</Tabs>
 
 ## 잔액은 어떻게 계산되나요
 
@@ -39,7 +48,18 @@ Desk는 잔액을 하나의 값으로 저장해두지 않고, **거래 · 이체
 
 카드와 마찬가지로, 계좌 · 예금을 누르면 상세 화면이 열립니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![계좌 상세 — 잔액, 12주 잔액 추이 그래프, 최근 거래 미리보기](/img/screens/asset-account-detail.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![계좌 상세 — 잔액, 12주 잔액 추이 그래프, 최근 거래 미리보기](/img/screens/mobile-asset-account-detail.png)
+
+</TabItem>
+</Tabs>
 
 - **잔액**과 **최근 12주 잔액 추이**(3개월 · 6개월 · 1년 단위로 전환 가능한 그래프)
 - **최근 거래**미리보기와 전체 보기 링크

@@ -13,7 +13,18 @@ title: 카드 혜택
 - **필터**: 카드 종류, 받을 수 있는 혜택 종류로 좁히기
 - **단종 카드 포함**: 지금은 새로 발급되지 않는 카드도 같이 볼지 켜고 끕니다
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![카드 혜택 라이브러리 — 6,767건의 카드 정보를 종류·혜택별로 필터링](/img/screens/card-benefit-library.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![카드 혜택 라이브러리 — 6,767건의 카드 정보를 종류·혜택별로 필터링](/img/screens/mobile-card-benefit-library.png)
+
+</TabItem>
+</Tabs>
 
 ## 카드 상세 보기
 

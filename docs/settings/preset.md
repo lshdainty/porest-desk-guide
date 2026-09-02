@@ -7,7 +7,18 @@ title: 프리셋
 
 자주 입력하는 거래를 프리셋으로 저장해두면, [거래 추가](../expense/transactions.md)에서 불러오기 한 번으로 같은 내용을 다시 입력할 수 있습니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![프리셋 관리 — 저장한 프리셋과 사용 횟수, 정렬 방식(사용 많은 순·최근 사용·이름순)](/img/screens/settings-preset.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![프리셋 관리 — 저장한 프리셋과 사용 횟수, 정렬 방식](/img/screens/mobile-settings-preset.png)
+
+</TabItem>
+</Tabs>
 
 ## 프리셋 생성
 
@@ -17,19 +28,52 @@ title: 프리셋
 4. **고정 금액 사용**을 켜면 금액까지 프리셋에 저장되고, 꺼두면 불러올 때마다 금액만 비워둔 채로 열립니다(매번 금액이 달라지는 거래에 편리합니다)
 5. **[추가]**
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![프리셋 추가 — 고정 금액 사용을 꺼두면 금액은 매번 비워둔 채로 불러옵니다](/img/screens/settings-preset-add-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![프리셋 추가 — 고정 금액 사용을 꺼두면 금액은 매번 비워둔 채로 불러옵니다](/img/screens/mobile-settings-preset-add-form.png)
+
+</TabItem>
+</Tabs>
 
 ## 프리셋 수정
 
 행의 **연필 아이콘**을 누르면 추가할 때와 같은 폼이 열려 이름 · 카테고리 · 내역 · 고정 금액 여부를 모두 바꿀 수 있습니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![프리셋 수정](/img/screens/settings-preset-edit-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![프리셋 수정](/img/screens/mobile-settings-preset-edit-form.png)
+
+</TabItem>
+</Tabs>
 
 ## 프리셋 삭제
 
 행의 **휴지통 아이콘**을 누르고 확인 창에서 **[삭제]** 를 누릅니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![프리셋 삭제 확인 — 이미 저장된 거래 내역에는 영향이 없습니다](/img/screens/settings-preset-delete-confirm.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![프리셋 삭제 확인 — 이미 저장된 거래 내역에는 영향이 없습니다](/img/screens/mobile-settings-preset-delete-confirm.png)
+
+</TabItem>
+</Tabs>
 
 :::info[삭제해도 이미 불러와 저장했던 거래에는 영향이 없습니다]
 프리셋은 거래를 빠르게 입력하기 위한 "틀"일 뿐이라, 삭제해도 그 프리셋으로 이미 저장해둔 거래내역은 그대로 남습니다. 앞으로 그 프리셋을 다시 불러올 수 없게 될 뿐입니다.

@@ -13,9 +13,18 @@ title: 캘린더
 - **오늘로 이동**: 언제든 오늘 날짜로 바로 이동하는 버튼
 - **표시 항목 토글**: 지출 내역 · 공휴일을 캘린더 위에 같이 표시할지 켜고 끕니다
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![캘린더 월간 보기 — 등록한 일정과 공휴일(추석)이 함께 표시됩니다](/img/screens/calendar-month.png)
 
-![모바일 화면 — 하단 탭 가운데 + 버튼으로 바로 일정을 추가할 수 있습니다](/img/screens/mobile-calendar.png)
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![모바일 화면 — 날짜를 누르면 그날의 일정 목록이 먼저 뜹니다](/img/screens/mobile-calendar-month.png)
+
+</TabItem>
+</Tabs>
 
 ## 일정 생성
 
@@ -27,7 +36,18 @@ title: 캘린더
 6. 필요하면 **반복**(매일 · 매주 · 매월 · 매년) 과 **알림**(5분 전 · 15분 전 · 30분 전 · 1시간 전 · 1일 전) 을 설정합니다
 7. **[저장]**
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![일정 추가 — 제목·캘린더·색상 라벨·종일 여부·기간·장소·반복·알림을 한 화면에서 설정합니다](/img/screens/calendar-add-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![일정 추가 — 제목·캘린더·색상 라벨·종일 여부·기간·장소·반복·알림을 한 화면에서 설정합니다](/img/screens/mobile-calendar-add-form.png)
+
+</TabItem>
+</Tabs>
 
 :::warning[종료일은 시작일보다 빠를 수 없어요]
 시작일 · 종료일을 뒤바꿔 저장하려 하면 막힙니다. 다만 지난 날짜로 일정을 등록하는 것 자체는 자유롭게 할 수 있습니다.
@@ -37,13 +57,35 @@ title: 캘린더
 
 날짜를 누르면 그날의 일정이 목록으로 모여 보이고, 일정을 누르면 상세 카드가 펼쳐집니다. **[일정 수정]** 을 누르면 추가할 때와 같은 폼이 열려 제목 · 날짜 · 시간 · 라벨 · 반복 · 알림을 모두 고칠 수 있습니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![일정 상세 카드 — 아래쪽에 일정 삭제·일정 수정 버튼이 있습니다](/img/screens/calendar-detail-actions.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![일정 상세 카드 — 날짜 한 번, 일정 한 번 두 번 탭해야 열립니다](/img/screens/mobile-calendar-detail-actions.png)
+
+</TabItem>
+</Tabs>
 
 ## 일정 삭제
 
 상세 카드의 **[일정 삭제]** 를 누르고 확인 창에서 **[삭제]** 를 누릅니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![일정 삭제 확인 — 삭제하면 되돌릴 수 없습니다](/img/screens/calendar-delete-confirm.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![일정 삭제 확인 — 삭제하면 되돌릴 수 없습니다](/img/screens/mobile-calendar-delete-confirm.png)
+
+</TabItem>
+</Tabs>
 
 :::danger[되돌릴 수 없습니다]
 "이 작업은 되돌릴 수 없습니다"라는 문구 그대로, 삭제한 일정은 복구할 방법이 없습니다. 반복 일정도 삭제 확인 창은 똑같이 뜨고, "이번 일정만" 또는 "전체 반복 일정" 중 골라 지우는 선택지는 따로 없습니다.

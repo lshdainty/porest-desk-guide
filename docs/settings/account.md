@@ -5,7 +5,18 @@ title: 계정
 
 # 계정
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![계정 설정 — 프로필, 보안(비밀번호 · 2단계인증 · 생체인증 · 금액 가리기 · 로그인된 기기 · 로그인 기록)](/img/screens/settings-account.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![계정 설정 — 프로필, 보안(비밀번호 · 2단계인증 · 생체인증 · 금액 가리기 · 로그인된 기기 · 로그인 기록)](/img/screens/mobile-settings-account.png)
+
+</TabItem>
+</Tabs>
 
 ## 프로필 · 비밀번호
 
@@ -27,7 +38,18 @@ Google · Apple ID · 카카오 · 네이버 중 로그인에 함께 쓸 소셜 
 
 화면 상단 바의 **눈 아이콘**을 눌러도 바로 이 설정으로 옵니다 — 어느 화면에 있든 단축키처럼 쓸 수 있습니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![금액 가리기 — 거래 종류별 마스킹과, 홈·자산·가계부·통계·예산·증권·더치페이·기타로 나뉜 화면별 위젯 40개 체크리스트](/img/screens/settings-hide-amounts.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![금액 가리기 — 거래 종류별 마스킹과, 화면별 위젯 40개 체크리스트](/img/screens/mobile-settings-hide-amounts.png)
+
+</TabItem>
+</Tabs>
 
 - **거래 종류**: 지출 · 수입 · 이체 거래를 종류째로 가릴 수 있습니다. 화면과 상관없이 그 종류의 거래 금액이 전부 가려지고, 수입이나 지출을 가리면 합계 · 잔액도 함께 가려집니다.
 - **화면별 위젯**: 순자산 · 카테고리 도넛 · 예산 진행 · 계좌 목록 · 거래 상세 · 보유 종목 등 **약 40개 항목을 화면 단위가 아니라 위젯 단위로 하나하나** 고를 수 있습니다. 홈 · 자산 · 가계부 · 통계 · 예산 · 증권 · 더치페이 · 기타 탭으로 묶여 있고, 위쪽 **[모두 선택]** 으로 한 번에 전부 고를 수도 있습니다.
