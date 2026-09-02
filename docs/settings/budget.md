@@ -14,7 +14,18 @@ title: 예산 설정
 - **9월 총 예산 카드**: 전체 한도, 이번 달 사용액, 카테고리별 한도의 합(**할당됨**), 아직 카테고리에 배정하지 않은 나머지(**할당 가능**)
 - **카테고리별 예산 목록**: 카테고리마다 따로 정한 한도와 남은 예산
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![예산 설정 — 전체 한도(500,000원)와 카테고리별 한도(교통 100,000원)를 함께 설정한 화면. 할당됨·할당 가능이 전체 한도에서 카테고리 한도를 뺀 값을 보여줍니다](/img/screens/settings-budget-overview.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![예산 설정 — 전체 한도와 카테고리별 한도를 함께 설정한 화면](/img/screens/mobile-settings-budget-overview.png)
+
+</TabItem>
+</Tabs>
 
 :::info["할당됨 · 할당 가능"은 계획용 숫자이지, 실제 이행률 계산과는 다릅니다]
 이 화면의 "할당됨 · 할당 가능"은 전체 한도 중 얼마를 카테고리별로 나눠 배정했는지 보여주는 참고용 숫자일 뿐입니다. 실제 [예산 이행률](../expense/budget.md#한도는-어떻게-정해지나요) 계산은 이것과 무관하게 **전체 한도가 있으면 전체 한도 하나만 쓰고 카테고리별 한도는 무시**합니다 — 카테고리 예산을 다 채워 배정해도(할당 가능 0원) 전체 한도만 그대로 지출 한도로 쓰입니다.
@@ -26,7 +37,18 @@ title: 예산 설정
 2. **150만원 · 200만원 · 250만원 · 300만원** 중 빠르게 고르거나, 입력란에 직접 금액을 씁니다
 3. **[저장]**
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![월 전체 상한 수정 — 자주 쓰는 금액을 버튼으로 빠르게 고르거나 직접 입력합니다](/img/screens/settings-budget-overall-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![월 전체 상한 수정 — 자주 쓰는 금액을 버튼으로 빠르게 고르거나 직접 입력합니다](/img/screens/mobile-settings-budget-overall-form.png)
+
+</TabItem>
+</Tabs>
 
 :::warning[전체 예산은 "설정 안 함" 상태로 되돌릴 수 없어요]
 입력란에 **0을 넣거나 비워두면 [저장] 버튼 자체가 비활성화**되어 눌리지 않습니다. 즉 전체 예산을 한 번 정하면 다른 금액으로 바꿀 수는 있어도, 다시 "설정되지 않음" 상태로 지울 수는 없습니다. 이 화면에는 카테고리별 예산과 달리 별도의 삭제 버튼도 없습니다.
@@ -41,7 +63,18 @@ title: 예산 설정
 3. **월 한도**를 고르거나 직접 입력합니다
 4. **[추가]**
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![카테고리 예산 추가 — 대분류 카테고리 중에서 고르고 월 한도를 정합니다](/img/screens/settings-budget-category-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![카테고리 예산 추가 — 대분류 카테고리 중에서 고르고 월 한도를 정합니다](/img/screens/mobile-settings-budget-category-form.png)
+
+</TabItem>
+</Tabs>
 
 **수정 · 삭제**: 각 카테고리 행의 **연필**(수정) · **휴지통**(삭제) 아이콘을 씁니다. 삭제 확인 창은 **"OO 카테고리 예산을 삭제할까요?"** 로 뜨는데, 이때 지워지는 건 **그 카테고리의 예산 한도뿐이고 카테고리 자체는 그대로 남습니다** — 카테고리를 지우고 싶다면 [카테고리 관리](./category.md)에서 따로 삭제해야 합니다.
 

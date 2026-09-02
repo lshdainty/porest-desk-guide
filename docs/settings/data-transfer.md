@@ -9,7 +9,18 @@ title: 데이터 내보내기 · 가져오기
 데이터 가져오기 · 내보내기는 [Porest Pro](../subscription/subscription.md) 구독자를 위한 기능입니다.
 :::
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![데이터 내보내기 — 기간과 데이터 종류(거래내역·자산·예산·카테고리·메모·캘린더·할일)를 골라 CSV·Excel·JSON으로 내려받습니다](/img/screens/settings-data-transfer.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![데이터 내보내기 — 기간과 데이터 종류를 골라 CSV·Excel·JSON으로 내려받습니다](/img/screens/mobile-settings-data-transfer.png)
+
+</TabItem>
+</Tabs>
 
 ## 내보내기
 
@@ -23,7 +34,18 @@ title: 데이터 내보내기 · 가져오기
 2. **(2) 열 매핑** — 파일의 각 열이 Porest의 어떤 항목(날짜 · 금액 · 카테고리 등)에 해당하는지 확인 · 수정합니다
 3. **(3) 완료** — 미리보기에서 중복 · 오류를 확인한 뒤 확정합니다
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![가져오기 — 어떤 앱에서 가져올지 고르고 파일을 올립니다](/img/screens/settings-data-import.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![가져오기 — 어떤 앱에서 가져올지 고르고 파일을 올립니다](/img/screens/mobile-settings-data-import.png)
+
+</TabItem>
+</Tabs>
 
 :::info[가져온 데이터는 기존 거래에 "추가"됩니다 — 덮어쓰지 않아요]
 화면에 그대로 적혀 있듯, 가져오기는 항상 **기존 거래에 추가되는 방식**이라 기존 데이터를 지우거나 덮어쓰지 않습니다. 다만 그만큼 **같은 파일을 두 번 가져오면 거래가 중복으로 쌓일 수 있으니**, 완료 전 미리보기 단계에서 중복 여부를 꼭 확인하세요.

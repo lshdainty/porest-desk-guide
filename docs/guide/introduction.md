@@ -10,7 +10,18 @@ title: Desk 소개
 
 여러 앱에 흩어져 있던 오늘 할 일, 이번 달 일정, 카드값, 잔액을 하나의 화면에서 확인하고, 문자로 온 결제 알림을 거래내역으로 자동 반영해 가계부를 손으로 채우는 시간을 줄여줍니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![로그인 후 첫 화면 — 순자산, 이번 달 수입·지출, 카테고리 비중, 예산 진행률, 할 일을 한눈에 보여주는 홈 화면](/img/screens/dashboard.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![로그인 후 첫 화면 — 순자산, 이번 달 수입·지출, 카테고리 비중, 예산 진행률, 할 일을 한눈에 보여주는 홈 화면](/img/screens/mobile-dashboard.png)
+
+</TabItem>
+</Tabs>
 
 ## 어떤 걸 할 수 있나요?
 

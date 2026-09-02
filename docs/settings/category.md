@@ -14,7 +14,18 @@ title: 카테고리 관리
 - **펼침 화살표**: 하위 카테고리가 있는 항목을 펼치고 접습니다
 - **카테고리 검색**: 이름으로 바로 찾기
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![카테고리 관리 — 상위 카테고리 아래 세부 카테고리를 중첩해 정리합니다("식비" 아래 "외식")](/img/screens/category-list.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![카테고리 관리 — 상위 카테고리 아래 세부 카테고리를 중첩해 정리합니다](/img/screens/mobile-category-list.png)
+
+</TabItem>
+</Tabs>
 
 ## 카테고리 생성
 
@@ -25,7 +36,18 @@ title: 카테고리 관리
 5. **색상 · 아이콘**을 고릅니다
 6. **[추가]**
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![카테고리 추가 — 구분(지출·수입), 상위 카테고리, 이름(최대 12자), 색상·아이콘을 한 화면에서 설정](/img/screens/category-add-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![카테고리 추가 — 구분(지출·수입), 상위 카테고리, 이름(최대 12자), 색상·아이콘을 한 화면에서 설정](/img/screens/mobile-category-add-form.png)
+
+</TabItem>
+</Tabs>
 
 :::info[세부 카테고리에만 거래를 붙일 수 있어요]
 "식비"처럼 하위 항목을 거느린 상위 카테고리는 분류용일 뿐, 거래를 직접 붙일 수 없습니다. 거래에는 "식비 › 외식"처럼 더 이상 나뉘지 않는 **가장 아래 단계**의 카테고리만 지정할 수 있습니다.
@@ -35,11 +57,20 @@ title: 카테고리 관리
 
 각 행의 **연필 아이콘**을 누르면 추가할 때와 같은 폼이 열려 이름 · 색상 · 아이콘 · 상위 카테고리를 바꿀 수 있습니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![카테고리 목록의 수정(연필) · 삭제(휴지통) 아이콘 위치](/img/screens/category-list-actions.png)
 
-모바일에서는 행을 누르면 같은 내용의 수정 시트가 아래에서 올라옵니다. 데스크톱에는 없는 **[⇄ 거래 옮기기]** 도 여기서 볼 수 있습니다.
+</TabItem>
+<TabItem value="mobile" label="모바일">
 
 ![모바일 카테고리 수정 시트 — 거래 옮기기 버튼이 있습니다](/img/screens/mobile-settings-category-edit.png)
+
+</TabItem>
+</Tabs>
+
+모바일에서는 행을 누르면 같은 내용의 수정 시트가 아래에서 올라옵니다. 데스크톱에는 없는 **[⇄ 거래 옮기기]** 도 여기서 볼 수 있습니다.
 
 :::info[거래가 붙어 있으면 하위 카테고리를 만들 수 없어요]
 이미 거래가 연결된 카테고리는 그 아래에 세부 카테고리를 새로 만들 수 없습니다. 그 카테고리 안의 거래를 **[거래 옮기기]** 로 다른 카테고리에 옮긴 뒤에야 하위 분류를 만들 수 있습니다.

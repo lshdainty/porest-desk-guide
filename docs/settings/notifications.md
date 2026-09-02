@@ -5,7 +5,18 @@ title: 알림 설정
 
 # 알림 설정
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![알림 설정 — 종류별 알림을 켜고 끄고, 각 알림이 정확히 언제 오는지 안내가 붙어 있습니다](/img/screens/settings-notifications.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![알림 설정 — 종류별 알림을 켜고 끄고, 각 알림이 정확히 언제 오는지 안내가 붙어 있습니다](/img/screens/mobile-settings-notifications.png)
+
+</TabItem>
+</Tabs>
 
 ## 알림 종류별 켜고 끄기
 

@@ -13,7 +13,18 @@ title: 통계
 - **트렌드**: 시간에 따라 수입 · 지출이 어떻게 변해왔는지
 - **기간 비교**: 이번 달과 지난달처럼 두 기간을 나란히 비교
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![통계 · 카테고리별 화면 — 카테고리 비중, 가맹점 TOP 5, 요일·시간대 지출 패턴](/img/screens/stats.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![통계 · 카테고리별 화면 — 카테고리 비중, 가맹점 TOP 5, 요일·시간대 지출 패턴](/img/screens/mobile-stats.png)
+
+</TabItem>
+</Tabs>
 
 ## 기간 선택
 

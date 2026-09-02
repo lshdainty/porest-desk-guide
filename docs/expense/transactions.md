@@ -13,9 +13,18 @@ title: 거래내역
 - **월 이동**: 화살표로 이전 · 다음 달로 이동
 - **필터**: 자산(계좌 · 카드)별, 카테고리별로 좁혀서 봅니다
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![거래내역 목록 — 날짜별로 모아 보여주고, 각 거래에 카테고리·결제수단·시각이 함께 표시됩니다](/img/screens/expense-list.png)
 
-![모바일 화면 — 주간 캘린더 스트립과 거래 목록이 한 화면에 함께 보입니다](/img/screens/mobile-expense.png)
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![모바일 화면 — 주간 캘린더 스트립과 거래 목록이 한 화면에 함께 보입니다](/img/screens/mobile-expense-list.png)
+
+</TabItem>
+</Tabs>
 
 ## 거래 생성
 
@@ -44,7 +53,18 @@ title: 거래내역
 
 계좌 · 카드에서 **카드**를 고르면 그 아래 **할부** 선택란이 나타납니다(계좌 · 현금에는 할부 개념이 없어 나타나지 않습니다). 개월수를 고르면 "매달 약 OOO원씩 N회 청구돼요"라고 미리 계산해서 보여줍니다.
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![거래 추가 — 카드를 고르면 나타나는 할부 선택란과 "매달 약 100,000원씩 3회 청구돼요" 안내](/img/screens/expense-installment-hint.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![거래 추가 — 카드를 고르면 나타나는 할부 선택란과 "매달 약 100,000원씩 3회 청구돼요" 안내](/img/screens/mobile-expense-installment-hint.png)
+
+</TabItem>
+</Tabs>
 
 :::warning[가계부 화면과 카드 청구서의 숫자가 다른 이유]
 할부로 100만 원을 3개월에 나눠 사도, **거래내역과 이번 달 합계 · 예산 이행률에는 구매한 날 원금 전체(100만 원)가 한 번에 지출로 잡힙니다.** 매달 나눠서 청구되는 건 [카드 상세](../asset/card.md)의 "결제 예정 금액" 화면뿐입니다 — 할부로 큰 결제를 하면 그달 예산 이행률이 실제 카드값보다 훨씬 크게 튀어 보일 수 있는 이유입니다.
@@ -61,7 +81,18 @@ title: 거래내역
 3. 나눈 금액의 합이 원래 총액과 **원 단위까지 정확히 같아야** "분할 합계가 총액과 일치해요"로 바뀌고 저장할 수 있습니다 — 하나라도 안 맞으면 저장되지 않습니다
 4. **[분할 저장]**
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![내역 분할 — 하나의 결제를 항목별로 나누고, 분할 합계가 총액과 맞는지 실시간으로 확인합니다](/img/screens/expense-split-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![내역 분할 — 하나의 결제를 항목별로 나누고, 분할 합계가 총액과 맞는지 실시간으로 확인합니다](/img/screens/mobile-expense-split-form.png)
+
+</TabItem>
+</Tabs>
 
 분할해도 **목록에는 여전히 원래 거래 하나(총액 그대로)로 보입니다.** 나뉜 내역은 상세를 열어야 보이고, 삭제하면(아래 [거래 삭제](#거래-삭제) 참고) 나눈 항목 전부가 한꺼번에 지워집니다 — 항목별로 따로 지울 수 없습니다.
 
@@ -72,9 +103,31 @@ title: 거래내역
 3. 금액 · 카테고리 · 거래처 · 계좌카드 · 할부 · 날짜 · 메모는 물론, **지출 · 수입 · 이체 종류 자체도** 탭으로 바꿀 수 있습니다
 4. **[저장]**
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![거래 상세 — 하단의 수정·삭제 버튼 위치. 환불·내역 분할·반복 설정·더치페이로 바로 이동하는 바로가기도 함께 있습니다](/img/screens/expense-detail-actions.png)
 
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![거래 상세 — 하단 시트로 열리고, 삭제·수정이 화면 폭 전체를 채우는 버튼입니다](/img/screens/mobile-expense-detail-actions.png)
+
+</TabItem>
+</Tabs>
+
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![거래 수정 — 거래 추가와 똑같은 구성의 폼이 기존 값을 채운 채 열립니다](/img/screens/expense-edit-form.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![거래 수정 — 거래 추가와 똑같은 구성의 폼이 기존 값을 채운 채 열립니다](/img/screens/mobile-expense-edit-form.png)
+
+</TabItem>
+</Tabs>
 
 ## 거래 삭제
 
@@ -82,7 +135,18 @@ title: 거래내역
 2. **"OO 거래를 삭제할까요? 연결된 자산 잔액이 함께 조정됩니다"** 확인 창이 뜹니다
 3. **[삭제]** 를 다시 누르면 확정됩니다
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![거래 삭제 확인 — 삭제하면 되돌릴 수 없고, 연결된 자산 잔액도 그 자리에서 다시 계산됩니다](/img/screens/expense-delete-confirm.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![거래 삭제 확인 — 삭제하면 되돌릴 수 없고, 연결된 자산 잔액도 그 자리에서 다시 계산됩니다](/img/screens/mobile-expense-delete-confirm.png)
+
+</TabItem>
+</Tabs>
 
 :::danger[삭제 전에 꼭 알아두세요]
 - **되돌릴 수 없습니다.** 목록에서 즉시 사라지는 완전 삭제이고, 휴지통이나 복구 기능이 없습니다.

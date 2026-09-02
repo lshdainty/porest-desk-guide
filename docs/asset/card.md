@@ -14,7 +14,18 @@ title: 카드 상세
 - **실적**: 연회비 할인 등 카드 혜택 조건으로 걸린 월 실적이 있다면, 지금까지 채운 금액과 목표까지 남은 금액
 - **이용 가능 혜택**: 이 카드로 받을 수 있는 혜택 목록과 주의사항
 
+<Tabs groupId="device">
+<TabItem value="desktop" label="데스크톱">
+
 ![카드 상세 — 결제 예정 금액, 한도 사용, 이용 내역을 한 화면에서 확인](/img/screens/card-detail.png)
+
+</TabItem>
+<TabItem value="mobile" label="모바일">
+
+![카드 상세 — 결제 예정 금액, 한도 사용, 이용 내역을 한 화면에서 확인](/img/screens/mobile-card-detail.png)
+
+</TabItem>
+</Tabs>
 
 하단의 **금액 가리기**로 이 카드의 금액만 따로 마스킹할 수 있고, **[한도 · 결제일 변경]** 이나 맨 아래 **[수정]** 을 누르면 모두 [설정 → 계좌 · 카드 관리](../settings/account-card.md)로 이동합니다 — 한도 · 결제일 · 별칭을 실제로 고치는 건 항상 그 설정 화면에서 하도록 되어 있습니다.
 
