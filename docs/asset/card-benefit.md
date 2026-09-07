@@ -16,12 +16,12 @@ title: 카드 혜택
 <Tabs groupId="device">
 <TabItem value="desktop" label="데스크톱">
 
-![카드 혜택 라이브러리 — 6,767건의 카드 정보를 종류·혜택별로 필터링](/img/screens/card-benefit-library.png)
+![카드 혜택 라이브러리 — 6,773건의 카드 정보를 종류·혜택별로 필터링](/img/screens/card-benefit-library.png)
 
 </TabItem>
 <TabItem value="mobile" label="모바일">
 
-![카드 혜택 라이브러리 — 6,767건의 카드 정보를 종류·혜택별로 필터링](/img/screens/mobile-card-benefit-library.png)
+![카드 혜택 라이브러리 — 6,773건의 카드 정보를 종류·혜택별로 필터링](/img/screens/mobile-card-benefit-library.png)
 
 </TabItem>
 </Tabs>
