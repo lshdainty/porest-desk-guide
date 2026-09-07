@@ -117,12 +117,12 @@ title: 할 일 관리
 <Tabs groupId="device">
 <TabItem value="desktop" label="데스크톱">
 
-![할 일을 완료하면 뜨는 별빛 적립 안내 — "여유" 우선순위라 +2, 별자리 진행률이 2/6으로 올라감](/img/screens/todo-star-toast.png)
+![할 일을 완료하면 뜨는 별빛 적립 안내 — "보통" 우선순위라 +2, 별자리 진행률이 2/6으로 올라감](/img/screens/todo-star-toast.png)
 
 </TabItem>
 <TabItem value="mobile" label="모바일">
 
-![할 일을 완료하면 뜨는 별빛 적립 안내 — "여유" 우선순위라 +1](/img/screens/mobile-todo-star-toast.png)
+![할 일을 완료하면 뜨는 별빛 적립 안내 — "보통" 우선순위라 +2](/img/screens/mobile-todo-star-toast.png)
 
 </TabItem>
 </Tabs>
@@ -136,10 +136,6 @@ title: 할 일 관리
 별빛은 각 할 일당 **평생 딱 한 번만** 쌓입니다. 완료를 취소했다가 다시 체크해도 별빛이 또 쌓이지는 않고, 그 대신 **같은 날 안에서** 취소 → 재체크하면 아까 쌓였던 별빛이 그대로 복원됩니다(다음 날로 넘어가면 복원되지 않습니다).
 
 앱에서는 전용 **밤하늘** 화면에서 별자리를 감상하고, 지금까지의 기록을 리포트로 볼 수 있습니다.
-
-:::tip[태그를 지웠는데 할 일에 계속 보인다면]
-[설정에서 태그를 지워도](../settings/todo-tag.md) 이미 그 태그가 붙어 있던 할 일에서는 태그가 그대로 남아 보입니다. 새 할 일부터 그 태그를 고를 수 없게 될 뿐입니다.
-:::
 
 ## 마감 알림
 
