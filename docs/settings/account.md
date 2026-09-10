@@ -8,19 +8,19 @@ title: 계정
 <Tabs groupId="device">
 <TabItem value="desktop" label="데스크톱">
 
-![계정 설정 — 프로필, 보안(비밀번호 · 2단계인증 · 생체인증 · 금액 가리기 · 로그인된 기기 · 로그인 기록)](/img/screens/settings-account.png)
+![계정 설정 — 프로필, 보안(비밀번호 · 금액 가리기 · 로그인된 기기 · 로그인 기록)](/img/screens/settings-account.png)
 
 </TabItem>
 <TabItem value="mobile" label="모바일">
 
-![계정 설정 — 프로필, 보안(비밀번호 · 2단계인증 · 생체인증 · 금액 가리기 · 로그인된 기기 · 로그인 기록)](/img/screens/mobile-settings-account.png)
+![계정 설정 — 프로필, 보안(비밀번호 · 금액 가리기 · 로그인된 기기 · 로그인 기록)](/img/screens/mobile-settings-account.png)
 
 </TabItem>
 </Tabs>
 
 ## 프로필 · 비밀번호
 
-이름 등 프로필 정보를 고치고, 비밀번호를 변경합니다.
+**비밀번호 변경**은 됩니다. 프로필 옆의 **[✎ 수정]** 버튼은 이름 · 이메일 같은 개인정보를 바꾸는 자리로 마련되어 있지만, **아직 눌러도 아무 일도 일어나지 않습니다** — 나중에 채워질 자리입니다.
 
 ## 연결된 계정
 
