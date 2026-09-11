@@ -5,10 +5,6 @@ title: 데이터 내보내기 · 가져오기
 
 # 데이터 내보내기 · 가져오기
 
-:::info[Pro 전용 기능입니다]
-데이터 가져오기 · 내보내기는 [Porest Pro](../subscription/subscription.md) 구독자를 위한 기능입니다.
-:::
-
 <Tabs groupId="device">
 <TabItem value="desktop" label="데스크톱">
 
