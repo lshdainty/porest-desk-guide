@@ -87,7 +87,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `POREST Desk 사용자 설명서`,
+      copyright: `© ${new Date().getFullYear()} POREST`,
     },
     prism: {
       theme: prismThemes.github,
