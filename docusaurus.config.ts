@@ -87,7 +87,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `© ${new Date().getFullYear()} GROO`,
+      copyright: `© ${new Date().getFullYear()} 그루`,
     },
     prism: {
       theme: prismThemes.github,
