@@ -1,6 +1,6 @@
 # porest-desk-guide
 
-POREST Desk 사용자 설명서 사이트. [Docusaurus](https://docusaurus.io/) 정적 사이트.
+그루 담다(GROO DAMDA, 화면상 이름 Desk) 사용자 설명서 사이트. [Docusaurus](https://docusaurus.io/) 정적 사이트.
 
 ## 개발
 

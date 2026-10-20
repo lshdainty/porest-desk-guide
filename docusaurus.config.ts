@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'POREST Desk 가이드',
+  title: '그루 담다 가이드',
   tagline: '할 일·캘린더·가계부·자산을 한 곳에서',
   favicon: 'img/favicon.ico',
 
@@ -65,9 +65,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'POREST Desk 가이드',
+      title: '그루 담다 가이드',
       logo: {
-        alt: 'POREST Desk',
+        alt: '그루 담다',
         src: 'img/logo.svg',
       },
       items: [
@@ -87,7 +87,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `© ${new Date().getFullYear()} POREST`,
+      copyright: `© ${new Date().getFullYear()} GROO`,
     },
     prism: {
       theme: prismThemes.github,
