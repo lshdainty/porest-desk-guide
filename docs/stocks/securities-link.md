@@ -5,7 +5,7 @@ title: 증권사 연동하기
 
 # 증권사 연동하기
 
-토스증권 · 나무증권에서 발급받은 **본인 API 키**를 등록하면 보유 종목과 시세를 Desk 안에서 바로 볼 수 있습니다. [Porest Pro 구독](../subscription/subscription.md)이 필요합니다.
+토스증권 · 나무증권에서 발급받은 **본인 API 키**를 등록하면 보유 종목과 시세를 Desk 안에서 바로 볼 수 있습니다. [담다 Pro 구독](../subscription/subscription.md)이 필요합니다.
 
 ## 연동 방법
 

@@ -5,7 +5,7 @@
  */
 
 /* You can override the default Infima variables here. */
-/* POREST 브랜드 그린(#00A86B) — porest-docs(HR) 사이트와 톤을 맞춘다. */
+/* 그루 브랜드 그린(#00A86B) — porest-docs(HR) 사이트와 톤을 맞춘다. */
 :root {
   --ifm-color-primary: #00a86b;
   --ifm-color-primary-dark: #009761;
